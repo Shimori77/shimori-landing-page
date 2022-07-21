@@ -24,4 +24,4 @@ jobs:
     steps:
       - name: Build Docker Container
         id: buildDocker
-        uses: actions/shimori-landing-page-action@v1
+        uses: actions/shimori-landing-page@v1
