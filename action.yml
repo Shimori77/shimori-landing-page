@@ -1,0 +1,5 @@
+name: "Run Docker"
+description: "This will build the docker container of the app."
+runs:
+  using: "docker"
+  image: "Dockerfile"
