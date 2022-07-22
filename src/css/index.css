@@ -1,80 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
 
 html {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    background-color: #ECD5C3;
+  background-color: #ecd5c3;
 
-    font-family: 'Fira Code', monospace;
-    font-size: 18px;
-    color: #64766A;
+  font-family: "Fira Code", monospace;
+  /* font-size: 18px; */
+  color: #64766a;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.5fr 1fr;
 
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 a.normal-link {
-    color: #826659;
-    text-decoration: none;
+  color: #826659;
+  text-decoration: none;
 }
 
 a.normal-link:visited {
-    color: #826659;
-    text-decoration: none;
+  color: #826659;
+  text-decoration: none;
 }
 
 div.profile-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 
-    margin-top: 1%;
+  margin-top: 1%;
 }
 
 div.profile-combo {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
+  align-items: center;
 }
 
 div.profile-description {
-    width: 25%;
+  width: 25%;
 }
 
 div.profile-description > p {
-    text-align: justify;
+  text-align: justify;
 }
 
 img.profile-picture {
-    width: 324px;
-    height: 324px;
+  width: 324px;
+  height: 324px;
 
-    border-color: #FBC4AF;
-    border-radius: 50%;
-    border-width: 5px;
-    border-style: solid;
+  border-color: #fbc4af;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
 }
 
 div.about {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
-    text-align: justify;
+  align-items: center;
+  text-align: justify;
 }
 
 div.about > div {
-    width: 25%;
+  width: 25%;
 }
